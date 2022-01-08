@@ -11,7 +11,6 @@ def replace_without_lib(s: str) -> str:
     index = 0
     for i, char in enumerate(s.strip()):
         if char == " ":
-
             payload.append("%20")
         else:
             payload.append(char)
