@@ -25,7 +25,7 @@ class Solution:
         check_word = random.choice(self._wordlist)
 
         if self._attempt > 10:
-            print('Fail')
+            print(f'Fail, master word is {self._master}')
             return
 
         count = self.compare_word(check_word, self._master)
